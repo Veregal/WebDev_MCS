@@ -1,0 +1,49 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Yeseva+One&display=swap');
+
+.header {
+	height: 200px;
+	background-color: #e5e000;
+}
+
+.name {
+	font-family: 'Yeseva One', cursive;
+	color: white;
+	font-size: 42px;
+}
+
+.sectionImage {
+	height: 1080px;
+	background-image: url(../img/bobo.jpg);
+	background-size: cover;
+}
+
+.sectionLinks {
+	height: 100px;
+	background-color: #e5e000;
+	font-family: 'Yeseva One', cursive;
+	color: white;
+	font-size: 42px;
+	text-decoration: underline;
+}
+
+.sectionText {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 36px;
+}
+
+.footer {
+	height: 200px;
+	background-color: #e5e000;
+	background-image: url(../img/logo.png);
+	background-size: 205px;
+	background-repeat: no-repeat;
+	background-position: 80px 80px;
+}
+
+.foterText {
+	height: 500px;
+	background-position-y: 80px 80px;
+	font-family: 'Yeseva One', cursive;
+	color: white;
+	font-size: 42px;
