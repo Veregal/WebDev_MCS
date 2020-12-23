@@ -9,7 +9,8 @@
 .name {
 	font-family: 'Yeseva One', cursive;
 	color: white;
-	font-size: 42px;
+	font-size: 3rem;
+	line-height: 200px;
 }
 
 .sectionImage {
@@ -23,13 +24,14 @@
 	background-color: #e5e000;
 	font-family: 'Yeseva One', cursive;
 	color: white;
-	font-size: 42px;
-	text-decoration: underline;
+	font-size: 3rem;
+	text-decoration: none;
+	line-height: 100px;
 }
 
 .sectionText {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 36px;
+	font-size: 2rem;
 }
 
 .footer {
@@ -41,9 +43,9 @@
 	background-position: 80px 80px;
 }
 
-.foterText {
-	height: 500px;
+.footerText {
 	background-position-y: 80px 80px;
 	font-family: 'Yeseva One', cursive;
 	color: white;
-	font-size: 42px;
+	font-size: 3rem;
+	line-height: 200px;
