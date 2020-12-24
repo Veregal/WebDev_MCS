@@ -9,29 +9,32 @@
 .name {
 	font-family: 'Yeseva One', cursive;
 	color: white;
-	font-size: 3rem;
+	font-size: 48px;
 	line-height: 200px;
 }
 
-.sectionImage {
+.section-image {
 	height: 1080px;
 	background-image: url(../img/bobo.jpg);
 	background-size: cover;
 }
 
-.sectionLinks {
+.section-links {
 	height: 100px;
 	background-color: #e5e000;
+}
+
+.section-links a {
 	font-family: 'Yeseva One', cursive;
 	color: white;
-	font-size: 3rem;
+	font-size: 48px;
 	text-decoration: none;
 	line-height: 100px;
 }
 
-.sectionText {
+.section-text {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 2rem;
+	font-size: 32px;
 }
 
 .footer {
@@ -43,9 +46,11 @@
 	background-position: 80px 80px;
 }
 
-.footerText {
+.footer-text {
 	background-position-y: 80px 80px;
 	font-family: 'Yeseva One', cursive;
 	color: white;
-	font-size: 3rem;
+	font-size: 48px;
 	line-height: 200px;
+	text-align: right;
+}
