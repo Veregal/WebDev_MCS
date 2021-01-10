@@ -28,44 +28,46 @@
 	left: 20px;
 }
 
+.main {
+	text-align: center;
+}
+
 .first,
 .second,
 .third {
 	display: inline-block;
 	width: 400px;
-	height: 800px;
 	box-sizing: border-box;
 	border: 5px solid #E5E000;
 	border-radius: 30px;
-	margin-top: 120px;
-	margin-bottom: 120px;
-	margin-left: 70px;
+	text-align: left;
+	margin: 112px 25px;
+	font-size: 20px;
 }
 
 .third {
-	margin-left: 50px;
+	margin-right: 45px
 }
 
 .second {
-	margin-left: 50px;
+
 }
 
 .first {
-	margin-left: 70;
+	margin-left: 45px;
 }
 
 .section-heading {
+	font-family: 'Helvetica';
 	font-weight: 700;
-	font-size: 20px;
-	position: relative;
-	top: 33px;
-	left: 33px;
-}
 
-.content {
-	font-weight: 400;
-	font-size: 20px;
-	line-height: 23px;
-	position: relative;
-	margin: 97px 33px 33px;
+	padding: 33px 33px 41px;
 }
+ .text {
+ 	font-family: 'Times New Roman';
+	font-weight: 400;
+ 
+ 	padding-right: 33px;
+ 	padding-left: 33px;
+ 	padding-bottom: 33px;
+ }
