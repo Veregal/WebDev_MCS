@@ -1,0 +1,30 @@
+@import url(reset.css);
+
+.outer {
+	width: 600px;
+	height: 500px;
+	border: 5px solid red;/*
+Без border margin делает отступы от родительского элимента,
+в данам случае body*/
+	margin: 20px auto;/*
+Значение auto не работает с текстом
+auto автамотически ставит блок по середине*/
+}
+
+.inner {
+	width: 100px;
+	height: 100px;
+	background-color: orange;
+/*	margin: 50px 20px 30px 40px;
+Назначает значения с верху по часовой*/
+/*	margin: 50px 20px 30px;
+Не назначеное левое значение зеркалиться по правому*/
+/*	margin: 50px 20px;
+Зеркалит значения от назначеных верхнего и правого*/
+	margin: 50px;/*
+Назначает все граници*/
+/*	margin-top: 50px;
+	margin-left: 30px;
+	margin-bottom: 50px;
+Индивидуальное назначение*/
+}

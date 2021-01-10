@@ -1,0 +1,52 @@
+@import url(reset.css);
+
+section {
+	height: 600px;
+	border: 1px solid black;
+}
+
+.inner {
+	width: 50px;
+	height: 50px;
+}
+
+.static .inner {
+	background-color: red;
+	position: static;
+	margin: 20px;
+/*	top: 50px: При статичиском позиционирование нельзя двигать объекты
+испоьзуя прямые команды.*/
+}
+
+.relative .inner {
+	background-color: orange;
+	position: relative;
+	bottom: 30px;
+/*Не вырывает элемент из потока, позволяя перемещать его,
+относительно заризервированой позиции.
+Можно за пределы секции.*/
+}
+
+.absolute {
+	position: relative;
+}
+/*Фиксирует объект, относительно свой секции.*/
+.absolute .inner {
+	background-color: violet;
+	position: absolute;
+
+	bottom: 20px
+	right: 0;
+	top: 0;
+	left: 0;/*Приоритет позиционирование у top, left выше чем у bottom,right*/
+/*Вырывает элемент из потока.
+Прямые инструкции позиционируют относительно секции.*/
+}
+
+.fixed .inner {
+	background-color: green;
+	position: fixed;
+	bottom: 200px;
+	right: 100px;
+/*Позиционируется относительно всего окна браузера в любом случае скрола.*/
+}

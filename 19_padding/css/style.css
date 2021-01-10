@@ -1,0 +1,15 @@
+@import url(reset.css);
+
+div {
+	box-sizing: border-box;/*
+Позволяет сохранить размеры, избавившись от влияния padding*/
+	width: 300px;
+	background-color: yellow;
+	padding: 50px;/*
+Не бывает значения auto*/
+/*	padding-top: 20px;
+	padding-left: 50px;
+	padding-bottom: 50px;
+	padding-right: 50px;
+Работает по тойже механике назначения, что и margin*/
+}
