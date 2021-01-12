@@ -4,13 +4,14 @@
 .header {
 	height: 200px;
 	background-color: #e5e000;
+	box-sizing: border-box;
+	padding: 80px;
 }
 
 .name {
 	font-family: 'Yeseva One', cursive;
 	color: white;
-	font-size: 48px;
-	line-height: 200px;
+	font-size: 50px;
 }
 
 .section-image {
@@ -22,35 +23,55 @@
 .section-links {
 	height: 100px;
 	background-color: #e5e000;
+	box-sizing: border-box;
+	padding: 35px 0 0 80px;  
 }
 
 .section-links a {
 	font-family: 'Yeseva One', cursive;
 	color: white;
-	font-size: 48px;
+	font-size: 25px;
+	font-weight: 700;
 	text-decoration: none;
-	line-height: 100px;
 }
 
 .section-text {
+	box-sizing: border-box;
+	padding: 110px 80px 20px;
+
 	font-family: 'Montserrat', sans-serif;
-	font-size: 32px;
+	font-size: 50px;
+}
+
+.section-text h2 {
+	font-weight: 700;
+
+	margin-bottom: 80px;
+}
+
+.section-text p {
+	margin-bottom: 80px
 }
 
 .footer {
 	height: 200px;
 	background-color: #e5e000;
-	background-image: url(../img/logo.png);
-	background-size: 205px;
-	background-repeat: no-repeat;
-	background-position: 80px 80px;
+	position: relative;
+}
+
+.mcs {
+	position: absolute;
+	top: 77px;
+	left: 80px;
 }
 
 .footer-text {
-	background-position-y: 80px 80px;
+	display: block;
+	position: absolute;
+	top: 77px;
+	right: 80px;
+
 	font-family: 'Yeseva One', cursive;
 	color: white;
-	font-size: 48px;
-	line-height: 200px;
-	text-align: right;
+	font-size: 50px;
 }
